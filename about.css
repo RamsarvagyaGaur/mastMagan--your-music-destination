@@ -1,0 +1,53 @@
+body{
+    background-color:   whitesmoke
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.rr{
+    margin-left: 15rem;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+H4{
+    color: rgb(119, 242, 242);
+    font-family: fantasy;
+}
+
+H2{
+    color: rgb(199, 239, 124);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: orange;
+    background-size: cover;
+}

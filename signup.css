@@ -1,0 +1,79 @@
+body{
+    
+    background-color: rgba(206, 86, 12, 0.984);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.rr{
+    
+    color: black;
+    display: flex;
+    text-align:center;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration:dotted;
+    color: white;
+    
+}
+.container{
+    min-height: 50vh;
+    background-color: white;
+    border-color: aliceblue;
+    border-width: 0lvh;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 70px auto;
+   width: 50%;
+   border-radius: 30px;
+   padding: 34px;
+   
+}
+
+.signup_page{
+    display: flex;
+    justify-content: center;
+}
+.myform{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+input[type=submit]
+{
+    /* width: 10%; */
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: bisque;
+    margin-left: 550%;
+    
+}
